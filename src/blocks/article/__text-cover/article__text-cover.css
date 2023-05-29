@@ -1,0 +1,8 @@
+.article__text-cover {
+    margin: 0;
+    background-color: var(--fon2);
+    text-align: center;
+    font-family: var(--font);
+    color: var(--fon);
+    transform: scaleX(2) translate(0, -1vh);
+}

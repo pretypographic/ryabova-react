@@ -1,0 +1,8 @@
+.make-button_small {
+    width: 3rem;
+    height: 1.5rem;
+}
+
+.dashboard .make-button_small {
+    margin-right: auto
+}

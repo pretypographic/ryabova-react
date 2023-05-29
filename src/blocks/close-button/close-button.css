@@ -1,0 +1,14 @@
+.close-button {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top: 10vh;
+    right: 7vw;
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    transform: translateX(3px) scale(0.95);
+}

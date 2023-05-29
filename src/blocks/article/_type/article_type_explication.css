@@ -1,0 +1,14 @@
+.article_type_explication {
+    height: auto;
+    max-height: 50vh;
+    margin: 2vh 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.article_type_explication:last-child {
+    margin-top: auto;
+}

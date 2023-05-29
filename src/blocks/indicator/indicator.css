@@ -1,0 +1,16 @@
+.indicator {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 10vh;
+    left: 7vw;
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+
+.indicator:hover {
+    transform: scale(1.4);
+}

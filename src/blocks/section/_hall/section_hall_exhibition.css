@@ -1,0 +1,5 @@
+.section_hall_exhibition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

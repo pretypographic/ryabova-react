@@ -1,0 +1,16 @@
+.dashboard__tumbler {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 1.2rem;
+    font-family: var(--font);
+    color: var(--text);
+    cursor: pointer;
+}
+
+.dashboard__tumbler:hover {
+    color: gray;
+}

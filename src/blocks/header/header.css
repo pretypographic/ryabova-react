@@ -1,0 +1,13 @@
+.header {
+    width: 58%;
+    padding: 3vh 0 2vh;
+    border-bottom: 1px solid var(--border);
+    box-sizing: border-box;
+    background-color: var(--fon);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}

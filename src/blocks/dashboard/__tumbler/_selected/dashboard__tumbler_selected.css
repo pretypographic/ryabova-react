@@ -1,0 +1,8 @@
+.dashboard__tumbler_selected {
+    text-decoration: underline;
+    cursor: default;
+}
+
+.dashboard__tumbler_selected:hover {
+    color: var(--text);
+}

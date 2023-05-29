@@ -1,0 +1,22 @@
+.improve {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    border: none;
+    background-color: rgb(0, 255, 0);
+    transform: scale(0.9) rotate(45deg);
+    cursor: pointer;
+}
+
+.improve:hover {
+    animation: rotate 0.4s ease-out;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(-45deg);
+    }
+}

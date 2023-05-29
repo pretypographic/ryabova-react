@@ -1,0 +1,12 @@
+.device__trigger {
+    border: 5vh solid var(--border);
+    background-color: var(--fon);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 5vh;
+    right: 5vw;
+    bottom: 5vh;
+    left: 5vw;
+}

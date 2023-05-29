@@ -1,0 +1,3 @@
+.article_type_responsive:hover .article__title {
+    color: var(--border);
+}

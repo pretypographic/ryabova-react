@@ -1,0 +1,7 @@
+.article__text {
+    margin: 0;
+    margin-bottom: 1vh;
+    width: calc((100% - 1vh) / 2);
+    font-size: 1rem;
+    font-family: var(--font);
+}
