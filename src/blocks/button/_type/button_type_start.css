@@ -1,0 +1,10 @@
+.button_type_start {
+    width: 40vh;
+    height: 40vh;
+    background-color: red;
+    transition: background-color 0.4s;
+}
+
+.button_type_start:hover {
+    background-color: black;
+}

@@ -1,0 +1,12 @@
+.button_type_make {
+  width: 100%;
+  height: auto;
+  background: url(../../../images/make-button.svg) no-repeat top;
+  background-size: contain;
+  filter: grayscale(100%);
+  transition: transform 0.4s;
+}
+
+.button_type_make:hover {
+  transform: scale(0.9);
+}

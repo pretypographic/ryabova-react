@@ -1,0 +1,11 @@
+.button_type_close {
+    background-color: black;
+    position: absolute;
+    top: 10vh;
+    right: 7vw;
+    transition: transform 0.4s;
+}
+
+.button_type_close:hover {
+    transform: translateY(3px) scale(0.95);
+}

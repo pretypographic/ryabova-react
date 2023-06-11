@@ -1,0 +1,10 @@
+.dashboard_black {
+    width: 100%;
+    height: 1.5rem;
+    margin-bottom: 1vh;
+    background-color: black;
+}
+
+.dashboard_black .dashboard__tumbler {
+    color: white;
+}

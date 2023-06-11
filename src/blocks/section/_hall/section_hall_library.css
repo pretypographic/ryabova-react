@@ -1,0 +1,13 @@
+.section_hall_library {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
+    gap: 1vh;
+}
+
+.section_hall_library .article__title {
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}

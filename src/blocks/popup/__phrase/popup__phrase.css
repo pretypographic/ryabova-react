@@ -1,0 +1,11 @@
+.popup__phrase {
+    border-radius: 0;
+    background-color: var(--text);
+    color: var(--fon);
+}
+
+.popup__phrase:focus {
+    outline: none;
+    background-color: var(--fon);
+    color: var(--text);
+}

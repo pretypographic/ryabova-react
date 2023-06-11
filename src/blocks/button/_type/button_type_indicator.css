@@ -1,0 +1,12 @@
+.button_type_indicator {
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 10vh;
+    left: 7vw;
+    transition: transform 0.4s;
+}
+
+.button_type_indicator:hover {
+    transform: scale(1.4);
+}

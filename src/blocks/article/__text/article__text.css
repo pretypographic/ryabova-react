@@ -1,0 +1,6 @@
+.article__text {
+  margin: 0;
+  margin-bottom: 1vh;
+  font-size: 1rem;
+  font-family: var(--font);
+}

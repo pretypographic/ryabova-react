@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+@import url(./blocks/base/base.css);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__title/header__title.css);
+
+@import url(./blocks/dashboard/dashboard.css);
+@import url(./blocks/dashboard/__tumbler/dashboard__tumbler.css);
+@import url(./blocks/dashboard/__tumbler/_selected/dashboard__tumbler_selected.css);
+@import url(./blocks/dashboard/_black/dashboard_black.css);
+
+@import url(./blocks/main/main.css);
+@import url(./blocks/section/section.css);
+@import url(./blocks/section/_hall/section_hall_prime.css);
+/* @import url(./blocks/section/_hall/section_hall_library.css); */
+@import url(./blocks/section/_hall/section_hall_exhibition.css);
+
+@import url(./blocks/article/article.css);
+@import url(./blocks/article/_type/article_type_responsive.css);
+@import url(./blocks/article/_type/article_type_head.css);
+/* @import url(./blocks/article/_type/article_type_explication.css); */
+@import url(./blocks/article/_type/article_type_exposition.css);
+@import url(./blocks/article/__cover/article__cover.css);
+@import url(./blocks/article/__image/article__image.css);
+@import url(./blocks/article/__title/article__title.css);
+@import url(./blocks/article/__text/article__text.css);
+/* @import url(./blocks/article/__span/article__span.css); */
+/* @import url(./blocks/article/__text/_style/article__text_style_italic.css);
+@import url(./blocks/article/__text-cover/article__text-cover.css);
+@import url(./blocks/article/__plug/article__plug.css); */
+
+/* @import url(./blocks/office/__text/office__text.css);
+@import url(./blocks/office/__contacts/office__contacts.css);
+@import url(./blocks/office/__list/office__list.css); */
+
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/popup/_dark/popup_dark.css);
+@import url(./blocks/popup/_opened/popup_opened.css);
+@import url(./blocks/popup/__screen/popup__screen.css);
+@import url(./blocks/popup/__screen/_short/popup__screen_short.css);
+@import url(./blocks/popup/__image/popup__image.css);
+@import url(./blocks/popup/__key/popup__key.css);
+@import url(./blocks/popup/__key/_open/popup__key_open.css);
+@import url(./blocks/popup/__phrase/popup__phrase.css);
+@import url(./blocks/popup/__phrase/_simple/popup__phrase_simple.css);
+@import url(./blocks/popup/__phrase/_tirade/popup__phrase_tirade.css);
+
+@import url(./blocks/button/button.css);
+@import url(./blocks/button/_type/button_type_close.css);
+@import url(./blocks/button/_type/button_type_delete.css);
+@import url(./blocks/button/_type/button_type_improve.css);
+@import url(./blocks/button/_type/button_type_indicator.css);
+@import url(./blocks/button/_type/button_type_make.css);
+@import url(./blocks/button/_type/button_type_small.css);
+@import url(./blocks/button/_type/button_type_start.css);
+/* @import url(./blocks/footer/footer.css); */
+/* @import url(./blocks/footer/__signature/footer__signature.css); */
+/* @import url(./blocks/link/link.css); */

@@ -1,0 +1,7 @@
+.popup__phrase_simple {
+  color: var(--text);
+}
+
+.popup__phrase_simple:focus {
+  color: var(--fon);
+}

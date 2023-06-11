@@ -1,0 +1,6 @@
+.office__text {
+    margin: 0 0 1vh;
+    align-self: start;
+    font-family: var(--font);
+    font-size: 1rem;
+}

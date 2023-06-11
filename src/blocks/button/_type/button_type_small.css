@@ -1,0 +1,8 @@
+.button_type_small {
+    width: 3rem;
+    height: 1.5rem;
+}
+
+.dashboard .button_type_small {
+    margin-right: auto
+}

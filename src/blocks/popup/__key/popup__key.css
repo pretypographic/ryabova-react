@@ -1,0 +1,9 @@
+.popup__key {
+    width: 40vh;
+    margin: 1rem 0;
+    border: none;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.5rem;
+    overflow: hidden;
+}

@@ -1,0 +1,5 @@
+.article__span {
+    font-size: 0.8rem;
+    font-family: var(--font);
+    color: rgb(90, 90, 90);
+}

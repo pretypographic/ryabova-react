@@ -1,0 +1,17 @@
+.button_type_improve {
+    background-color: rgb(0, 255, 0);
+    transform: scale(0.9) rotate(45deg);
+}
+
+.button_type_improve:hover {
+    animation: rotate 0.4s ease-out;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(-45deg);
+    }
+}

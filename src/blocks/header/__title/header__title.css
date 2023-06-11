@@ -1,0 +1,16 @@
+.header__title {
+    background-color: transparent;
+    border: none;
+    text-transform: lowercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: var(--font);
+    color: var(--text);
+    transition: color 0.2s;
+}
+
+.header__title:hover {
+    color: var(--color1);
+    text-shadow: 0 0 5px rgb(191, 0, 197);
+    cursor: pointer;
+}

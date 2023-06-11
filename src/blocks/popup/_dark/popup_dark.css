@@ -1,0 +1,11 @@
+.popup_dark {
+  background-color: var(--text);
+}
+
+.popup_dark .popup__key {
+  color: var(--fon);
+}
+
+.popup_dark .button_type_close {
+  background-color: var(--fon);
+}
